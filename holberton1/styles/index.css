@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url("../images.Ho/Object.jpg");
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+nav{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.logo-conteiner{
+    width: 30%; 
+    float: left;
+    overflow: hidden;
+}
+
+.logo-conteiner>img{
+    width: 60%;
+    margin: 10px;
+}
+
+.menu-conteiner{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.menu-conteiner>li{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+} 
+
+.header-text>h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.words{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.header-text>button{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #C271FF;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 4px black;
+    font-size: 15px;
+}
+
+.header-text>h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.special-color{
+    color: #C271FF;
+}
+
+.user-container{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.user{
+    display: inline-block;
+    width: 23%;
+}
+
+.user>img{
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.user>p,
+.user>h3{
+    text-align: center;
+}
+
+.section-main{
+    padding: 60px;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+}
+
+.qute-img>img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.qute-text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.video-header{
+    text-align: center;
+}
+
+.video-section{
+    width: 285px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.videos-conteiner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video-section>div>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.video-section>div>p,
+.video-section>div>h3{
+    text-align: center;
+}
+
+.videos-conteiner>.video-section>.person-info{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.videos-conteiner>.video-section>.person-info>img{
+    margin-left: 10px;
+    display: inline-block;
+    
+}
+
+.videos-conteiner>.video-section>.person-info>h3{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.videos-conteiner>.video-section>ul>li{
+    list-style-type: none;
+    display: inline;
+}
+
+.minutes{
+    float: right;
+}
+
+.membership-container{
+    background-color: #071629;
+    color: #ffffff;
+}
+
+.membership-container>h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.membership-container>.memberships{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-right: 0%;
+}
+
+.membership{
+    width: 240px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.membership>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.membership>h3,
+.membership>p{
+    text-align: center;
+}
+
+.faq-section>h1{
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #111;
+    margin: 40px;
+}
+
+.faq-section>table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq-section>table>tbody>tr>td{
+    padding: 0px 45px 0px 45px;
+}
+
+footer{
+    background-color: #071629;
+    overflow: hidden;
+    height: 70px;
+}
+
